@@ -301,7 +301,7 @@ padding-left: 70px;
 
     #p-albuns{
         font-size: 13px;
-        text-align: center;
+        
         padding-left: 0px;
         }
 
@@ -313,6 +313,7 @@ padding-left: 70px;
 
     #titleA{
         font-size: 17px;
+        text-align: center;
         margin-left: auto;
     }
     
