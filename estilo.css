@@ -192,6 +192,20 @@ padding-left: 70px;
 
 @media screen and (max-width: 800px){
 
+    .Tomorrow{
+        display: grid;
+        flex-direction: column;
+    }
+
+    #bts-txt{
+        width: 200px;
+        margin-top: 50px;
+        position: relative;
+        border-radius: 100px;
+        left: 6%;
+        animation: looptxt 10s infinite linear;
+    }
+
     #aba{
         padding-left: 20px;
         padding-right: 20px;
@@ -277,14 +291,40 @@ padding-left: 70px;
 
 @media screen and (max-width: 200px){
 
+    #dejavu{
+        width: 80%;
+        position: relative;
+        border-radius: 100px;
+        left: 0%;
+        animation: looptxt 10s infinite linear;
+    }
+
+    #p-albuns{
+        font-size: 13px;
+        text-align: center;
+        padding-left: 0px;
+        }
+
+    .album1{
+        display: flexbox;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #titleA{
+        font-size: 17px;
+        margin-left: auto;
+    }
+    
+
     #aba{
         padding-left: 5px;
-        padding-right: 5px;
+        padding-right: 1px;
         font-size: 12px;
     }
 
     #titleH{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #bp{
