@@ -166,6 +166,7 @@ a{
     margin-left: 120px;
 }
 
+
 #p-albuns{
 font-size: 25px;
 padding-left: 70px;
@@ -186,3 +187,126 @@ padding-left: 70px;
 }
 
 
+
+/* telas */
+
+@media screen and (max-width: 800px){
+
+    #aba{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #titleH{
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    #aba{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #titleH{
+        font-size: 30px;
+    }
+
+    #bp{
+        width: 70%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        position: relative;
+        border-radius: 10px;
+        left: 10px;
+        border: 1px solid white;
+        animation: looptxt 10s infinite linear;
+    }
+
+    .inicio{
+        display: flexbox; 
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #p-inicio{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+    #aba{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+
+    #titleH{
+        font-size: 25px;
+    }
+
+    #bp{
+        width: 90%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        position: relative;
+        border-radius: 10px;
+        left: 10px;
+        border: 1px solid white;
+        animation: looptxt 10s infinite linear;
+    }
+
+    .inicio{
+        display: flexbox; 
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #p-inicio{
+        text-align: center;
+        margin-left: 0;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 200px){
+
+    #aba{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+
+    #titleH{
+        font-size: 25px;
+    }
+
+    #bp{
+        width: 90%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        position: relative;
+        border-radius: 10px;
+        left: 10px;
+        border: 1px solid white;
+        animation: looptxt 10s infinite linear;
+    }
+
+    .inicio{
+        display: flexbox; 
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #p-inicio{
+        text-align: center;
+        margin-left: 0;
+        font-size: 10px;
+    }
+}
