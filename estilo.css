@@ -93,7 +93,7 @@ a{
 #h2-txt{
     
     text-align:right;
-    font-size: 50px;
+    font-size: 80px;
     margin-right: 15vh;
    
 
@@ -147,7 +147,7 @@ a{
     text-align: left;
     margin-left: 180px;
     margin: 60px;
-    margin-top: 50px;
+    margin-top: 180px;
     font-size: 20px;
 
 }
@@ -168,7 +168,7 @@ a{
 
 
 #p-albuns{
-font-size: 25px;
+font-size: 30px;
 padding-left: 70px;
 }
 
@@ -191,6 +191,17 @@ padding-left: 70px;
 /* telas */
 
 @media screen and (max-width: 800px){
+
+    .inicio{
+        display: flexbox; 
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .album1{
+        align-items: center;
+        flex-direction: column;
+    }
 
     .Tomorrow{
         display: grid;
@@ -220,7 +231,6 @@ padding-left: 70px;
 
 @media screen and (max-width: 600px){
     .album1{
-        display: flexbox;
         align-items: center;
         flex-direction: column;
     }
@@ -229,7 +239,6 @@ padding-left: 70px;
     #p-albuns{
         font-size: 10px;
         text-align: center;
-        margin-left: auto;
         }
 
     #aba{
